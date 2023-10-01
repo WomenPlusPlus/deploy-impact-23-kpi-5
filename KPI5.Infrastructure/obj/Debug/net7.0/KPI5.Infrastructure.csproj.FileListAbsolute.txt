@@ -1,0 +1,17 @@
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.csproj.AssemblyReference.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.AssemblyInfoInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.AssemblyInfo.cs
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Infrastructure.deps.json
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Infrastructure.runtimeconfig.json
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Infrastructure.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Infrastructure.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/bin/Debug/net7.0/KPI5.Domain.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.csproj.CopyComplete
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/refint/KPI5.Infrastructure.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/KPI5.Infrastructure.genruntimeconfig.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Infrastructure/obj/Debug/net7.0/ref/KPI5.Infrastructure.dll

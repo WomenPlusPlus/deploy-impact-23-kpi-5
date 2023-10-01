@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPI5.Infrastructure", "KPI5.Infrastructure\KPI5.Infrastructure.csproj", "{DB35D344-B6C1-4788-BA87-5929BADD57DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPI5.Domain", "KPI5.Domain\KPI5.Domain.csproj", "{18CF81C5-95D2-4938-B77B-03C99D548A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KPI5.API", "KPI5.API\KPI5.API.csproj", "{6CC71BBB-3AD3-4893-B113-63FEA8E7257B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB35D344-B6C1-4788-BA87-5929BADD57DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB35D344-B6C1-4788-BA87-5929BADD57DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB35D344-B6C1-4788-BA87-5929BADD57DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB35D344-B6C1-4788-BA87-5929BADD57DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CF81C5-95D2-4938-B77B-03C99D548A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CF81C5-95D2-4938-B77B-03C99D548A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CF81C5-95D2-4938-B77B-03C99D548A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CF81C5-95D2-4938-B77B-03C99D548A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC71BBB-3AD3-4893-B113-63FEA8E7257B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC71BBB-3AD3-4893-B113-63FEA8E7257B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC71BBB-3AD3-4893-B113-63FEA8E7257B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC71BBB-3AD3-4893-B113-63FEA8E7257B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

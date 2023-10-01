@@ -1,0 +1,12 @@
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/bin/Debug/net7.0/KPI5.Domain.deps.json
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/bin/Debug/net7.0/KPI5.Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/bin/Debug/net7.0/KPI5.Domain.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.csproj.AssemblyReference.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.AssemblyInfoInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.AssemblyInfo.cs
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.csproj.CoreCompileInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/refint/KPI5.Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/KPI5.Domain.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.Domain/obj/Debug/net7.0/ref/KPI5.Domain.dll
