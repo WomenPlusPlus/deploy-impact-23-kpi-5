@@ -37,6 +37,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -95,6 +109,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -111,9 +129,13 @@
               "target": "Package",
               "version": "[7.0.11, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "postgrest-csharp": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[3.2.7, )"
+            },
+            "supabase-core": {
+              "target": "Package",
+              "version": "[0.0.3, )"
             }
           },
           "imports": [

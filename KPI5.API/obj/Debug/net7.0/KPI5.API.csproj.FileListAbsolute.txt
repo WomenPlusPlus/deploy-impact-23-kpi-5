@@ -15,10 +15,7 @@
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Microsoft.OpenApi.dll
-/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Npgsql.dll
-/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -40,3 +37,16 @@
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/obj/Debug/net7.0/KPI5.API.pdb
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/obj/Debug/net7.0/KPI5.API.genruntimeconfig.cache
 /Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/obj/Debug/net7.0/ref/KPI5.API.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Functions.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Gotrue.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/JWTDecoder.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/System.ComponentModel.Composition.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/MimeMapping.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Postgrest.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Realtime.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Core.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Supabase.Storage.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/System.Reactive.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/KPI5/KPI5.API/bin/Debug/net7.0/Websocket.Client.dll

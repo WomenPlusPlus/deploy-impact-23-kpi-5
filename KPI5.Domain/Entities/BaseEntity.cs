@@ -1,11 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using Postgrest.Models;
+
 namespace KPI5.Domain.Entities;
 
-public class BaseEntity
+public class BaseEntity : BaseModel
 {
-    protected BaseEntity()
-    {
-        Id = Guid.NewGuid();
-    }
-
-    public Guid Id { get; private set; }
+    [Postgrest.Attributes.PrimaryKey("Id")]
+    public int Id { get; set; }
 }
