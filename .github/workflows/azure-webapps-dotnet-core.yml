@@ -1,4 +1,4 @@
-name: Build and deploy ASP.Net Core app to an Azure Web App
+name: WebAPI CI/CD to Azure
 
 env:
   AZURE_WEBAPP_NAME: kpi5.azurewebsites.net
