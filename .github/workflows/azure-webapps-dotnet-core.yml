@@ -60,32 +60,30 @@ jobs:
         with:
           name: .net-app
 
-      - name: Install Azure cli
+      - name: Check Azure CLI version
+        id: az-check
         run: |
-          sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
-          curl -sL https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
-          AZ_REPO=$(lsb_release -cs)
-          echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" | sudo tee /etc/apt/sources.list.d/azure-cli.list
-          sudo apt-get update
-          sudo apt-get install azure-cli
-      - uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-      - uses: azure/CLI@v1
-        with:
-          azcliversion: 2.0.72
-          inlineScript: |
-            az account list
+          AZ_VERSION=$(az --version | grep azure-cli | awk '{print $2}' | head -n 1)
+          echo "Current Azure CLI version: $AZ_VERSION"
+          echo "AZ_VERSION=$AZ_VERSION" >> $GITHUB_ENV
       
+      - name: Install Azure CLI
+        if: env.AZ_VERSION != '2.53.0'
+        run: |
+          # your Azure CLI installation steps
+            
+            - uses: azure/login@v1
+              with:
+                creds: ${{ secrets.AZURE_CREDENTIALS }}
+          
+            - run: |
+                az webapp list --query "[?state=='Running']"
+
       - uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-    
-      - run: |
-          az webapp list --query "[?state=='Running']"
 
       - name: Deploy to Azure Web App
-        id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
