@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { supabase } from "..//src/client.js";
+import { supabase } from "./client.tsx";
 
 const Authentication = () => {
   const [formData, setFormData] = useState({
