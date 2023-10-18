@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+
 import React, { useState } from "react";
 import { supabase } from "./client.js";
 
@@ -8,7 +10,7 @@ const AuthenticationPage = () => {
 
   console.log(formData);
 
-  function handleChange(event) {
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     setFormData((prevFormData) => {
       return {
         ...prevFormData,
@@ -17,13 +19,13 @@ const AuthenticationPage = () => {
     });
   }
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const { email } = formData; // Extract the email from formData
 
     if (email && email.toLowerCase().endsWith("gmail.com")) {
       try {
-        const { data, error } = await supabase.auth.signInWithOtp({
+        const { error } = await supabase.auth.signInWithOtp({
           email,
           options: {
             emailRedirectTo: "https://dealmeida.dev/", // Specify the landing page
@@ -31,12 +33,12 @@ const AuthenticationPage = () => {
         });
 
         if (error) {
-          alert("Error: " + error.message);
+          alert("Error: " + (error as Error).message);
         } else {
           alert("Check your email for the Login Link");
         }
       } catch (error) {
-        alert("An unexpected error occurred: " + error.message);
+        alert("An unexpected error occurred: " + (error as Error).message);
       }
     } else {
       alert("Invalid email domain. Try again.");

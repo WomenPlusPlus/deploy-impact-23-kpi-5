@@ -1,8 +1,7 @@
 // App.tsx
-import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import AuthenticationPage from "./src/components/AuthenticationPage";
-import LandingPage from "./src/components/LandingPage";
+// import LandingPage from "./src/components/LandingPage";
 
 function App() {
   return (
