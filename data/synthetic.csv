@@ -1,0 +1,248 @@
+circle,kpi,periodicity,range,PeriodYear,PeriodMonth,Value,id
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,1,1.1012740928967700,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,2,1.25902311088696,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,3,1.7525861756746100,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,4,2.3297233226631900,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,5,2.4283475836484600,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,6,3.088287025052910,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,7,3.3073373684951400,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,8,4.64943179380917,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,9,4.591093342968290,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,10,4.994354876087280,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,11,5.8217846200446500,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2021,12,7.434763559003740,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,1,8.813064754179670,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,2,12.047359541857800,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,3,13.680266889193900,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,4,11.150423719743100,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,5,12.437133460255300,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,6,13.69614202519990,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,7,17.899295842419200,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,8,19.424609134719000,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,9,23.95487729872500,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,10,23.952132046852100,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,11,23.92547770625940,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2022,12,27.870753282590800,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,1,35.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,2,50.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,3,50.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,4,55.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,5,70.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,6,80.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,7,85.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,8,90.0,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,9,,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,10,,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,11,,0.0
+HR,share of teams constituted as circles,month,0 <= % <= 100,2023,12,,0.0
+HR,share short tern leave,month,0 <= % <= 100,2021,1,2.066025798681490,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,2,1.3977273691408200,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,3,2.4654648157755300,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,4,2.403779972777190,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,5,1.7067276619975400,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,6,2.7419996636118300,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,7,2.680419273951620,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,8,2.3067207786867800,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,9,1.8781441738253700,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,10,2.870576881554000,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,11,1.1072056469355400,1.0
+HR,share short tern leave,month,0 <= % <= 100,2021,12,2.2177158522607600,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,1,1.7822833716156100,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,2,2.054881549343940,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,3,2.3101376825388300,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,4,2.1545476948236900,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,5,2.9395652398711500,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,6,2.3146248746054200,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,7,3.9326092476631800,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,8,2.2666255209079600,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,9,2.1452916531124900,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,10,2.080175819166930,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,11,2.589316603551290,1.0
+HR,share short tern leave,month,0 <= % <= 100,2022,12,2.5620329773038600,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,1,2.04,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,2,2.2,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,3,2.54,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,4,2.17,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,5,3.3,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,6,2.58,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,7,2.04,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,8,0.93,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,9,,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,10,,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,11,,1.0
+HR,share short tern leave,month,0 <= % <= 100,2023,12,,1.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,1,2.67676512540249,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,2,2.5250623081586300,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,3,1.4640984152104200,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,4,1.3251324249971600,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,5,0.5915647320905300,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,6,0.6480223839977980,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,7,0.37282548895108200,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,8,1.2700312676988500,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,9,0.00014716104829215500,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,10,0.37653069307475100,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,11,1.6506938656301300,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2021,12,0.0615033514949179,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,1,0.01650535282436730,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,2,0.372176228951279,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,3,0.0344581056590257,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,4,0.5574565891594250,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,5,0.015807301366144900,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,6,0.2588747892779550,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,7,2.3094959974475400,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,8,0.8014120600761530,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,9,0.1462763319227360,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,10,2.545798720970840,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,11,1.9213627937748100,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2022,12,1.2886137588079200,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,1,2.26,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,2,0.98,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,3,1.47,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,4,1.46,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,5,0.0,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,6,0.0,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,7,0.51,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,8,1.01,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,9,,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,10,,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,11,,2.0
+HR,involuntary headcount change (FTE),month,0 <= % <= 100,2023,12,,2.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2021,3,44.773002311024000,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2021,6,44.17802424660080,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2021,9,43.69821393199440,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2021,12,44.83331602624800,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2022,3,43.58662809841290,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2022,6,45.30155022891170,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2022,9,44.8336936955979,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2022,12,44.27351814047580,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2023,3,46.0,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2023,6,44.9,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2023,9,43.6,3.0
+Programs - Children - Counceling,reachability,quarter,0 <= % <= 100,2023,12,,3.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,1,57155.08596341330,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,2,37742.92840709850,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,3,45052.355335559300,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,4,54006.73575245270,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,5,59912.462220479600,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,6,62014.37737960830,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,7,71402.40004976550,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,8,87699.03877396710,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,9,102684.29093133400,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,10,106653.80367439400,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,11,105065.27997368200,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2021,12,108585.9668141760,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,1,98813.04652445690,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,2,119632.31760417800,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,3,116880.69432484600,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,4,130666.35736532200,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,5,143972.6877193530,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,6,150596.1374109140,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,7,140053.03614941000,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,8,111739.43630035900,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,9,109571.83505236400,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,10,99406.495737405,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,11,131681.31178440600,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2022,12,140156.7110567370,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,1,158611.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,2,203755.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,3,190560.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,4,164663.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,5,180421.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,6,174107.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,7,164059.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,8,194407.0,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,9,,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,10,,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,11,,4.0
+Programs - Parents -Online,count sessions on .projuventute.ch,month,0 <= X,2023,12,,4.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,1,1167.9670809668800,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,2,259.357833997344,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,3,510.8542034063800,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,4,684.7287231826770,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,5,223.3957279290370,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,6,931.4244389261590,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,7,584.9988126761210,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,8,870.8892742180480,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,9,714.895952269609,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,10,931.7137694523900,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,11,552.7766736928960,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2021,12,609.0671332187730,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,1,1116.9031197711600,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,2,1.1479055704504600,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,3,499.17349774840300,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,4,331.12178141663100,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,5,599.8870180163090,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,6,863.9690887869450,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,7,919.4137250601850,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,8,1366.6420806738700,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,9,501.71585874234800,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,10,138.35876451278200,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,11,1456.729224697480,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2022,12,643.045587132548,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,1,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,2,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,3,825.0,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,4,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,5,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,6,276.0,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,7,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,8,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,9,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,10,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,11,,5.0
+Programs - Parents -Online,count leads,month,0 <= X,2023,12,,5.0
+Programs - Parents -Online,net promoter score,year,0 <= X <= 100,2021,12,25.0,6.0
+Programs - Parents -Online,net promoter score,year,0 <= X <= 100,2022,12,30.0,6.0
+Programs - Parents -Online,net promoter score,year,0 <= X <= 100,2023,12,35.0,6.0
+Fundraising,private donations,month,0 <= X,2021,1,1351897.7197136700,7.0
+Fundraising,private donations,month,0 <= X,2021,2,1522844.3117524700,7.0
+Fundraising,private donations,month,0 <= X,2021,3,794700.6412960170,7.0
+Fundraising,private donations,month,0 <= X,2021,4,1434957.8832430600,7.0
+Fundraising,private donations,month,0 <= X,2021,5,1363898.3860487800,7.0
+Fundraising,private donations,month,0 <= X,2021,6,1578276.6195427700,7.0
+Fundraising,private donations,month,0 <= X,2021,7,1276449.005257250,7.0
+Fundraising,private donations,month,0 <= X,2021,8,667218.4657143170,7.0
+Fundraising,private donations,month,0 <= X,2021,9,1320455.0281900800,7.0
+Fundraising,private donations,month,0 <= X,2021,10,1436564.0384668200,7.0
+Fundraising,private donations,month,0 <= X,2021,11,1461211.0589673600,7.0
+Fundraising,private donations,month,0 <= X,2021,12,1144477.2266035900,7.0
+Fundraising,private donations,month,0 <= X,2022,1,1850174.0337251200,7.0
+Fundraising,private donations,month,0 <= X,2022,2,1714917.4789308400,7.0
+Fundraising,private donations,month,0 <= X,2022,3,2395806.6284449500,7.0
+Fundraising,private donations,month,0 <= X,2022,4,1317526.267059290,7.0
+Fundraising,private donations,month,0 <= X,2022,5,1571968.899436420,7.0
+Fundraising,private donations,month,0 <= X,2022,6,1437597.4372437700,7.0
+Fundraising,private donations,month,0 <= X,2022,7,1618406.1052518500,7.0
+Fundraising,private donations,month,0 <= X,2022,8,1459370.4032304200,7.0
+Fundraising,private donations,month,0 <= X,2022,9,1622774.7834674300,7.0
+Fundraising,private donations,month,0 <= X,2022,10,1859069.2408029900,7.0
+Fundraising,private donations,month,0 <= X,2022,11,1528421.8696854000,7.0
+Fundraising,private donations,month,0 <= X,2022,12,1459293.4803240400,7.0
+Fundraising,private donations,month,0 <= X,2023,1,1369218.0,7.0
+Fundraising,private donations,month,0 <= X,2023,2,2144446.0,7.0
+Fundraising,private donations,month,0 <= X,2023,3,1923875.0,7.0
+Fundraising,private donations,month,0 <= X,2023,4,1274911.0,7.0
+Fundraising,private donations,month,0 <= X,2023,5,1797114.0,7.0
+Fundraising,private donations,month,0 <= X,2023,6,1352463.0,7.0
+Fundraising,private donations,month,0 <= X,2023,7,1359887.0,7.0
+Fundraising,private donations,month,0 <= X,2023,8,1101047.0,7.0
+Fundraising,private donations,month,0 <= X,2023,9,,7.0
+Fundraising,private donations,month,0 <= X,2023,10,,7.0
+Fundraising,private donations,month,0 <= X,2023,11,,7.0
+Fundraising,private donations,month,0 <= X,2023,12,,7.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2021,3,51809,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2021,6,59095.3,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2021,9,0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2021,12,55795,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2022,3,52360,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2022,6,0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2022,9,63626,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2022,12,0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2023,3,51000.0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2023,6,0.0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2023,9,0.0,8.0
+Digital,additional monetization/savings from CRM,quarter,0 <= X,2023,12,,8.0
+Programs,additional monetization/savings from programs,quarter,0 <= X,2023,3,186258.0,9.0
+Programs,additional monetization/savings from programs,quarter,0 <= X,2023,6,0.0,9.0
+Programs,additional monetization/savings from programs,quarter,0 <= X,2023,9,26000.0,9.0
+Programs,additional monetization/savings from programs,quarter,0 <= X,2023,12,,9.0
