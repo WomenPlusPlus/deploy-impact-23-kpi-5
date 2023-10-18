@@ -22,6 +22,7 @@ name: Build and deploy Python app to Azure Web App
 env:
   AZURE_WEBAPP_NAME: kpi5Graphics
   PYTHON_VERSION: '3.8'
+  APP_LOCATION: "./chartjs_kpi"
 
 on:
   push:
