@@ -1,11 +1,16 @@
+// App.tsx
 import React from "react";
-import Authentication from "./components/Authentication";
+import { BrowserRouter as Router } from "react-router-dom";
+import AuthenticationPage from "./src/components/AuthenticationPage";
+import LandingPage from "./src/components/LandingPage";
 
 function App() {
   return (
-    <div>
-      <Authentication />
-    </div>
+    <Router>
+      {/* <Route path="/authentication" element={<AuthenticationPage />} />
+      <Route path="/landing" element={<LandingPage />} /> */}
+      <AuthenticationPage />
+    </Router>
   );
 }
 
