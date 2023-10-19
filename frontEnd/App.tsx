@@ -16,6 +16,8 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    console.log("auth.firstLoginTimestamp:", auth.firstLoginTimestamp);
+
     if (!auth.firstLoginTimestamp) {
       navigate("/economist");
     }
@@ -25,11 +27,11 @@ function App() {
     <Router>
       <div>
         <Routes>
+          <Route path="/" element={<AuthenticationPage />} />
           <Route path="/form" element={<Form />} />
           <Route path="/economist" element={<EconomistLandingPage />} />
           <Route path="/gatekeeper" element={<GatekeeperLandingPage />} />
           <Route path="/*" element={<NotFoundPage />} />
-          <Route path="/authentication" element={<AuthenticationPage />} />
         </Routes>
       </div>
     </Router>
