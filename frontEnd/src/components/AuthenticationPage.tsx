@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { supabase } from "./client.js";
+import "./styles-authentication.css";
 
 const AuthenticationPage = () => {
   const [formData, setFormData] = useState({
@@ -46,11 +47,24 @@ const AuthenticationPage = () => {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input placeholder="Email" name="email" onChange={handleChange} />
-        <button type="submit">Login</button>
-      </form>
+    <div className="page-container">
+      <div className="left-container">
+        <div className="form-container">
+          <h1>Log in</h1>
+          <form onSubmit={handleSubmit}>
+            <span>Email</span>
+            <input
+              placeholder="Enter your email"
+              name="email"
+              onChange={handleChange}
+            />
+            <button type="submit" className="login-button">
+              Log In
+            </button>
+          </form>
+        </div>
+      </div>
+      <div className="right-container"></div>
     </div>
   );
 };
