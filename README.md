@@ -28,15 +28,26 @@ Web Application to be used as a single source for:
 
 ## **PROJECT**
 
-- Frontend:
- - [Main Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5){:target="_blank"}
+- ### Frontend:
+ - [Main Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5)
+ - << text >>
 
-- Flask Web API (Graphics management)
- - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi){:target="_blank"}
+--
 
-- REST Web API (Backend database read-only access)
- - [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment){:target="_blank"}
+- ### Flask Web API (Graphics management)
+ - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi)
+ - << text >>
 
+--
+
+- ### REST Web API (Backend database read-only access)
+ - [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment)
+   
+ - #### Project
+   << text >>
+   
+ - #### Environment
+   << text >>
 
 ---
 
