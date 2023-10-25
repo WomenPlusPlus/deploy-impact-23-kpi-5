@@ -34,7 +34,7 @@ Web Application to be used as a single source for:
  - [Main Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5)
  - << text >>
 
---
+---
 
 - ### Flask Web API (Graphics management)
  - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi)
@@ -47,7 +47,7 @@ Web Application to be used as a single source for:
    **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
    **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5graphics.azurewebsites.net
 
---
+---
 
 - ### REST Web API (Backend database read-only access)
  - [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment)
