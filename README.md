@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Application](#application)
 - [Project](#project)
+- [Functionalities](#functionalities)
 
 
 ---
@@ -36,7 +37,14 @@ Web Application to be used as a single source for:
 
 - ### Flask Web API (Graphics management)
  - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi)
- - << text >>
+ 
+  - #### Project
+   Implemented with Python, connecting directly with Supabase;
+   
+   
+ - #### Environment
+   **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
+   **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5graphics.azurewebsites.net
 
 --
 
@@ -44,10 +52,15 @@ Web Application to be used as a single source for:
  - [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment)
    
  - #### Project
-   << text >>
+   Implemented with.Net7, connecting directly with Supabase;
+   Swagger is implemented to facilitate testing and integration. To access Swagger: https://kpi5.azurewebsites.net/swagger/index.html
    
  - #### Environment
-   << text >>
+   **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
+   **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5.azurewebsites.net
 
 ---
 
+## **FUNCTIONALITIES**
+
+<< text >>
