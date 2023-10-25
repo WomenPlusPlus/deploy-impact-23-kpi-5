@@ -39,7 +39,7 @@ Web Application to be used as a single source for:
  - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi)
  
   - #### Project
-   Implemented with Python, connecting directly with Supabase;
+   Implemented with Python, connecting directly with Supabase, returning data via REST access in JSON format to the Front End to plot graphics;
    
    
  - #### Environment
@@ -61,6 +61,16 @@ Web Application to be used as a single source for:
 
 ---
 
+## **DIAGRAMS**
+
+- ### KPI5 App Diagram
+<img width="1018" alt="image" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/39e8dad4-2ded-40ff-b91a-b1408aa6b400">
+
+- ### KPI5 Database Diagram (Supabase)
+<img width="542" alt="image" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/18a1371e-619c-4eed-8582-3d330047966b">
+
+
+---
 ## **FUNCTIONALITIES**
 
 << text >>
