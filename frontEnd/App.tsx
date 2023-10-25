@@ -1,5 +1,5 @@
 import { Route, Routes, useNavigate } from "react-router-dom";
-import { auth } from "./auth.ts";
+// import { auth } from "./auth.ts";
 import EconomistLandingPage from "./src/components/EconomistLandingPage";
 import GatekeeperLandingPage from "./src/components/GatekeeperLandingPage";
 import Form from "./src/components/Form";
@@ -10,13 +10,13 @@ import NotFoundPage from "./src/components/NotFoundPage.tsx";
 function App() {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    console.log("auth.firstLoginTimestamp:", auth.firstLoginTimestamp);
+  // useEffect(() => {
+  //   console.log("auth.firstLoginTimestamp:", auth.firstLoginTimestamp);
 
-    if (!auth.firstLoginTimestamp) {
-      navigate("/");
-    }
-  }, []);
+  //   if (!auth.firstLoginTimestamp) {
+  //     navigate("/");
+  //   }
+  // }, []);
 
   return (
     <div>

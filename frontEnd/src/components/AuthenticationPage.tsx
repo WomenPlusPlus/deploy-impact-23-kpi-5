@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { supabase } from "./client.js";
 import "./styles-authentication.css";
+import IMAGES from "../assets/IMAGES";
 
 const AuthenticationPage = () => {
   const [formData, setFormData] = useState({
@@ -64,9 +65,14 @@ const AuthenticationPage = () => {
           </form>
         </div>
       </div>
-      <div className="right-container"></div>
+      <div className="right-container">
+        <img
+          src={IMAGES.authenticationImage}
+          alt="Graphs"
+          className="authenticationImage"
+        />
+      </div>
     </div>
   );
 };
-
 export default AuthenticationPage;
