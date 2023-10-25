@@ -1,9 +1,4 @@
-import {
-  Route,
-  BrowserRouter as Router,
-  Routes,
-  useNavigate,
-} from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import { auth } from "./auth.ts";
 import EconomistLandingPage from "./src/components/EconomistLandingPage";
 import GatekeeperLandingPage from "./src/components/GatekeeperLandingPage";
@@ -19,22 +14,20 @@ function App() {
     console.log("auth.firstLoginTimestamp:", auth.firstLoginTimestamp);
 
     if (!auth.firstLoginTimestamp) {
-      navigate("/economist");
+      navigate("/");
     }
   }, []);
 
   return (
-    <Router>
-      <div>
-        <Routes>
-          <Route path="/" element={<AuthenticationPage />} />
-          <Route path="/form" element={<Form />} />
-          <Route path="/economist" element={<EconomistLandingPage />} />
-          <Route path="/gatekeeper" element={<GatekeeperLandingPage />} />
-          <Route path="/*" element={<NotFoundPage />} />
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <Routes>
+        <Route path="/" element={<AuthenticationPage />} />
+        <Route path="/form" element={<Form />} />
+        <Route path="/economist" element={<EconomistLandingPage />} />
+        <Route path="/gatekeeper" element={<GatekeeperLandingPage />} />
+        <Route path="/*" element={<NotFoundPage />} />
+      </Routes>
+    </div>
   );
 }
 
