@@ -2,7 +2,7 @@ import "./economist-dashboard.css";
 
 export default function EconomistLandingPage() {
   return (
-    <div>
+    <div className="page-container">
       <div className="sidebar">
         <ul>
           <li>My KPI</li>
