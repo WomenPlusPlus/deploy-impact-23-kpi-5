@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { supabase } from "./client.js";
 import "./styles-authentication.css";
-import IMAGES from "../assets/IMAGES";
+import IMAGES from "../assets/Images.js";
 
 const AuthenticationPage = () => {
   const [formData, setFormData] = useState({

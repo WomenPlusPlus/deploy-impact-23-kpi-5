@@ -1,14 +1,14 @@
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 // import { auth } from "./auth.ts";
 import EconomistLandingPage from "./src/components/EconomistLandingPage";
 import GatekeeperLandingPage from "./src/components/GatekeeperLandingPage";
 import Form from "./src/components/Form";
 import AuthenticationPage from "./src/components/AuthenticationPage";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import NotFoundPage from "./src/components/NotFoundPage.tsx";
 
 function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   // useEffect(() => {
   //   console.log("auth.firstLoginTimestamp:", auth.firstLoginTimestamp);
