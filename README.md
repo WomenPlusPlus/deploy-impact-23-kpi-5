@@ -61,8 +61,10 @@ Web Application to be used as a single source for:
    **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
    
    **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5.azurewebsites.net
-   
-   **Supabase**:
+
+---
+
+   **DATABASE with Supabase**:
    Free database and authentication service.
      - The **database** uses Postgresql and provides access via RESTful API for CRUD data.
      - The **authentication** offers full support to be integrated directly in FrontEnd.
