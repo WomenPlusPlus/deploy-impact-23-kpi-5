@@ -64,7 +64,7 @@ Web Application to be used as a single source for:
 
 ---
 
-   **DATABASE with Supabase**:
+- ### DATABASE with Supabase:
    Free database and authentication service.
      - The **database** uses Postgresql and provides access via RESTful API for CRUD data.
      - The **authentication** offers full support to be integrated directly in FrontEnd.
