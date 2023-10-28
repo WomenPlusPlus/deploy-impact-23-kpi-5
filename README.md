@@ -12,7 +12,7 @@
 
 
 ## **INTRODUCTION**
-- WEB APP Solution for ProJuventude KPI Management.
+- WEB APP Solution for ProJuventute KPI Management.
 
 ---
 
