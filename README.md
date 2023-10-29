@@ -6,6 +6,7 @@
 - [Project](#project)
 - [Diagrams](#diagrams)
 - [Functionalities](#functionalities)
+- [License](#license)
 
 
 ---
@@ -84,3 +85,12 @@ Web Application to be used as a single source for:
 ## **FUNCTIONALITIES**
 
 << text >>
+
+
+---
+## **LICENSE**
+
+  GNU General Public License v3.0 (GNU GPLv3)
+  Link to license: [link](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/blob/main/LICENSE)
+
+---
