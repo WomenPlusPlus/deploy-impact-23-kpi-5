@@ -75,10 +75,10 @@ Web Application to be used as a single source for:
 ## **DIAGRAMS**
 
 - ### KPI5 App Diagram
-<img width="1018" alt="image" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/39e8dad4-2ded-40ff-b91a-b1408aa6b400">
+<img width="1018" alt="KPI5 App Diagram" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/39e8dad4-2ded-40ff-b91a-b1408aa6b400">
 
 - ### KPI5 Database Diagram (Supabase)
-<img width="542" alt="image" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/18a1371e-619c-4eed-8582-3d330047966b">
+<img width="542" alt="KPI5 Database Diagram (Supabase)" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/18a1371e-619c-4eed-8582-3d330047966b">
 
 
 ---
@@ -90,7 +90,7 @@ Web Application to be used as a single source for:
 ---
 ## **LICENSE**
 
-  GNU General Public License v3.0 (GNU GPLv3)
-  Link to license: [link](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/blob/main/LICENSE)
+- GNU General Public License v3.0 (GNU GPLv3)
+Link to license: [link](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/blob/main/LICENSE)
 
 ---
