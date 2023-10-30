@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Contracts\.DS_Store" />
+      <Content Include="Entities\.DS_Store" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="12.0.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
+      <PackageReference Include="supabase-csharp" Version="0.13.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Contracts\User\PermissionRequest.cs" />
+      <Compile Remove="Contracts\User\RoleRequest.cs" />
+      <Compile Remove="Contracts\User\UserActivityLogRequest.cs" />
+      <Compile Remove="Contracts\User\UserRequest.cs" />
+      <Compile Remove="Contracts\User\UserActivityLogResponse.cs" />
+    </ItemGroup>
+
+</Project>
