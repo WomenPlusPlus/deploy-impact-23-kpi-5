@@ -2,7 +2,7 @@ name: WebAPI CI/CD to Azure
 
 env:
   AZURE_WEBAPP_NAME: kpi5
-  AZURE_WEBAPP_PACKAGE_PATH: './publish'
+  AZURE_WEBAPP_PACKAGE_PATH: 'src/WebApi/publish'
   DOTNET_VERSION: 7.0
   PROJECT_PATH: 'src/WebApi/'
 
