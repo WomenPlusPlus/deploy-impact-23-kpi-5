@@ -39,10 +39,11 @@ jobs:
 
     - name: Prepare files for deployment
       run: |
-          # Create a directory for the deployment artefact
-          mkdir -p deploy-artifact
-          # Copy all files from APP_LOCATION to the new deploy-artifact directory
-          cp -R ./* deploy-artifact/
+          # Create a directory for the deployment artifact
+          mkdir -p ${{ github.workspace }}/deploy-artifact
+          # Copy all files and folders from APP_LOCATION to the new deploy-artifact directory, excluding the deploy-artifact folder itself
+          shopt -s extglob
+          cp -R !(deploy-artifact) ${{ github.workspace }}/deploy-artifact/
       working-directory: ${{ env.APP_LOCATION }}
 
     - name: Upload artefact for deployment jobs
