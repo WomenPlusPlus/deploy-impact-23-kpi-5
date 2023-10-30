@@ -37,11 +37,19 @@ jobs:
       run: pip install -r requirements.txt
       working-directory: ${{ env.APP_LOCATION }}
 
-    - name: Upload artifact for deployment jobs
+    - name: Prepare files for deployment
+      run: |
+          # Create a directory for the deployment artefact
+          mkdir -p deploy-artifact
+          # Copy all files from APP_LOCATION to the new deploy-artifact directory
+          cp -R ./* deploy-artifact/
+      working-directory: ${{ env.APP_LOCATION }}
+
+    - name: Upload artefact for deployment jobs
       uses: actions/upload-artifact@v2
       with:
         name: python-app
-        path: ${{ env.APP_LOCATION }}
+        path: ./deploy-artifact
 
     - name: Log in to Azure CLI using service principal
       uses: azure/login@v1
