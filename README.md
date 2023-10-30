@@ -38,7 +38,7 @@ Web Application to be used as a single source for:
 ---
 
 - ### Flask Web API (Graphics management)
- - [FlaskWebApi Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/FlaskWebApi)
+ - "src/WebApi" directory
  
   - #### Project
    Implemented with Python, connecting directly with Supabase, returning data via REST access in JSON format to the Front End to plot graphics;
@@ -48,11 +48,11 @@ Web Application to be used as a single source for:
    **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
    **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5graphics.azurewebsites.net
  
- - #### **Frontend**
-  - Preliminary visualisations have been deployed (e.g. https://kpi5graphics.azurewebsites.net/generate_linechart/6a9d1286-0654-4c79-b247-6f558539ab8d, https://kpi5graphics.azurewebsites.net/generate_barchart/ & https://kpi5graphics.azurewebsites.net/generate_multibarchart/). The html files in the "src/FlaskGraphics/template" directory have to be tweaked to achieve the desired dashboard design (see [Visualisation](#visualisation))
+ - #### Frontend
+  - Preliminary visualisations have been deployed (e.g. https://kpi5graphics.azurewebsites.net/generate_linechart/6a9d1286-0654-4c79-b247-6f558539ab8d, https://kpi5graphics.azurewebsites.net/generate_barchart/ & https://kpi5graphics.azurewebsites.net/generate_multibarchart/). The html files in the "src/FlaskGraphics/templates" directory have to be tweaked to achieve the desired dashboard design (see point below)
  
-  - #### **Visualisation**
-  - The "src/streamlit_dashboard" directory contains the code that has been deployed on the Streamlit Community Cloud (can be viewed at https://dashboard-kpi.streamlit.app/). This is the desired layout of the in-app data visualisation dashboard, which should be achieved by tweaking the html files in the template directory mentioned in the [previous section](#frontend)
+  - #### Visualisation
+  - The "src/streamlit_dashboard" directory contains the code that has been deployed on the Streamlit Community Cloud (can be viewed at https://dashboard-kpi.streamlit.app/). This is the desired layout of the in-app data visualisation dashboard, which should be achieved by tweaking the html files in the "src/FlaskGraphics/templates" directory
   
 ---
 
