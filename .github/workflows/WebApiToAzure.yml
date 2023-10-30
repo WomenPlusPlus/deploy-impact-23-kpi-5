@@ -27,7 +27,7 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
           
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore ${{ env.PROJECT_PATH }}
         working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Build
@@ -36,6 +36,7 @@ jobs:
         
       - name: Publish
         run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/kpi5'
+        working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Deployment
         uses: azure/webapps-deploy@v2
