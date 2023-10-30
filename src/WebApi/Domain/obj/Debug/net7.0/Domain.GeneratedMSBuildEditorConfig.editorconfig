@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Domain
-build_property.ProjectDir = /Users/raphaelcordon/Drive/DotNet/_bkp/Women++30-10-23/src/Domain/
+build_property.ProjectDir = /Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/

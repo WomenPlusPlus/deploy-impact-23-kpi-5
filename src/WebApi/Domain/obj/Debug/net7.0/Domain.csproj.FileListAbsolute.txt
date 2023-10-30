@@ -46,3 +46,15 @@
 /Users/raphaelcordon/Drive/DotNet/_bkp/Women++30-10-23/src/Domain/obj/Debug/net7.0/refint/Domain.dll
 /Users/raphaelcordon/Drive/DotNet/_bkp/Women++30-10-23/src/Domain/obj/Debug/net7.0/Domain.pdb
 /Users/raphaelcordon/Drive/DotNet/_bkp/Women++30-10-23/src/Domain/obj/Debug/net7.0/ref/Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/bin/Debug/net7.0/Domain.deps.json
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/bin/Debug/net7.0/Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/bin/Debug/net7.0/Domain.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.csproj.CoreCompileInputs.cache
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/refint/Domain.dll
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/Domain.pdb
+/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/Domain/obj/Debug/net7.0/ref/Domain.dll

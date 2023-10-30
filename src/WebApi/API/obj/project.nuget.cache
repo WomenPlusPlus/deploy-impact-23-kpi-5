@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TK3ealyUHLYcW6yTvsXvpQfMhWmo6oB69OM/VpHEhCdP68H6V3zguINIpnnRqmfD/P/HUipj3butfHg04b0ZsA==",
+  "dgSpecHash": "Zi5bPIeBeYqBrf2FBwBYPLh0tZmOcSers1V8/mWx+1DaKVBpxH9IDgd9BoZjedvFET0yFN32TG81laBgZCEbUw==",
   "success": true,
-  "projectFilePath": "/Users/raphaelcordon/Drive/DotNet/_bkp/Women++30-10-23/src/API/API.csproj",
+  "projectFilePath": "/Users/raphaelcordon/Drive/DotNet/Women++/W++GitHubSprint6/src/WebApi/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/raphaelcordon/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/raphaelcordon/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
