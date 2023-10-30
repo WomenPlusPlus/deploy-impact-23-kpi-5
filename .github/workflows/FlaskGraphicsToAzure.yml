@@ -41,10 +41,8 @@ jobs:
       run: |
           # Create a directory for the deployment artifact
           mkdir -p ${{ github.workspace }}/deploy-artifact
-          # Copy all files and folders from APP_LOCATION to the new deploy-artifact directory, excluding the deploy-artifact folder itself
-          shopt -s extglob
-          cp -R !(deploy-artifact) ${{ github.workspace }}/deploy-artifact/
-      working-directory: ${{ env.APP_LOCATION }}
+          # Copy all files and folders from APP_LOCATION to the deploy-artifact directory
+          cp -R src/FlaskGraphics/* ${{ github.workspace }}/deploy-artifact/
 
     - name: Upload artefact for deployment jobs
       uses: actions/upload-artifact@v2
