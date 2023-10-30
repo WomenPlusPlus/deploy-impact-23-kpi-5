@@ -4,7 +4,7 @@ env:
   AZURE_WEBAPP_NAME: kpi5
   AZURE_WEBAPP_PACKAGE_PATH: './publish'
   DOTNET_VERSION: 7.0
-  PROJECT_PATH: '/src/WebApi'
+  PROJECT_PATH: 'src/WebApi'
 
 on:
   push:
