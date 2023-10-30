@@ -4,11 +4,13 @@ env:
   AZURE_WEBAPP_NAME: kpi5Graphics
   RESOURCE_GROUP: Womenplusplus
   PYTHON_VERSION: '3.10.x'
-  APP_LOCATION: "./"
+  APP_LOCATION: "src/FlaskGraphics/"
 
 on:
-  push:
-    branches: [ "Main/src/FlaskGraphics/" ]
+  workflow_run:
+      workflows: ["Primary Workflow"]
+      types:
+        - completed
 
 permissions:
   contents: read
