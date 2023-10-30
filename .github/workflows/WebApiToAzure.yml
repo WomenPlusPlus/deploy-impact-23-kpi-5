@@ -27,11 +27,11 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
           
       - name: Restore
-        run: dotnet restore ${{ env.PROJECT_PATH }}/WomenPlusPlusWebApiKpi5.sln
+        run: dotnet restore ${{ env.PROJECT_PATH }}
         working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Build
-        run: dotnet build ${{ env.PROJECT_PATH }}/WomenPlusPlusWebApiKpi5.sln --configuration Release --no-restore
+        run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release --no-restore
         working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Publish API Project
