@@ -27,15 +27,15 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
           
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore ${{ env.PROJECT_PATH }}/WomenPlusPlusWebApiKpi5.sln
         working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Build
-        run: dotnet build -c Release
+        run: dotnet build ${{ env.PROJECT_PATH }}/WomenPlusPlusWebApiKpi5.sln --configuration Release --no-restore
         working-directory: ${{ env.PROJECT_PATH }}
         
-      - name: Publish
-        run: dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/kpi5'
+      - name: Publish API Project
+        run: dotnet publish ${{ env.PROJECT_PATH }}/API/API.csproj --configuration Release --output ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/kpi5 --no-build
         working-directory: ${{ env.PROJECT_PATH }}
         
       - name: Deployment
@@ -43,4 +43,4 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-          package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/kpi5'
+          package: ${{ github.workspace }}/${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/kpi5
