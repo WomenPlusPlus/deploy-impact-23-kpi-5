@@ -3,8 +3,8 @@ name: Flask Web App to Azure App
 env:
   AZURE_WEBAPP_NAME: kpi5Graphics
   RESOURCE_GROUP: Womenplusplus
-  PYTHON_VERSION: '3.10.x'
-  APP_LOCATION: 'src/FlaskGraphics'
+  PYTHON_VERSION: '3.10' # Use the full version number that Azure supports, e.g., '3.10.2'
+  APP_LOCATION: 'src/FlaskGraphics' # The location where your Flask app is.
 
 on:
   push:
@@ -16,34 +16,33 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python 
-      uses: actions/setup-python@v3
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-        cache: 'pip'
-
-    - name: Create and start virtual environment
-      run: |
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
           python -m venv venv
           source venv/bin/activate
-      working-directory: ${{ env.APP_LOCATION }}
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-      working-directory: ${{ env.APP_LOCATION }}
-
-    - name: Upload artifact for deployment jobs
-      uses: actions/upload-artifact@v2
-      with:
+          pip install -r ${{ env.APP_LOCATION }}/requirements.txt
+          
+      - name: Zip the application for deployment
+        run: |
+          cd ${{ env.APP_LOCATION }}
+          zip -r ../deploy.zip . # This creates a zip at the root of the repo
+        working-directory: ${{ github.workspace }}
+        
+      - name: Upload artifact for deployment jobs
+        uses: actions/upload-artifact@v2
+        with:
           name: python-app
-          path: |
-            . 
-            !venv/
+          path: deploy.zip # Uploads the zip file
 
   deploy:
     runs-on: ubuntu-latest
@@ -52,22 +51,21 @@ jobs:
       name: 'Production'
 
     steps:
-    - name: Download artifact from build job
-      uses: actions/download-artifact@v2
-      with:
-        name: python-app
-        path: .
-
-    - name: Log in to Azure CLI using service principal
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS_GRAPHS }}
-
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: python-app
+          path: . # Downloads the artifact to the current directory
       
-    - name: 'Deploy to Azure WebApp'
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        slot-name: 'Production'
-        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE_GRAPHS }}
+      - name: Log in to Azure CLI using service principal
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS_GRAPHS }}
+      
+      - name: 'Deploy to Azure WebApp'
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE_GRAPHS }}
+          package: deploy.zip # Deploys the zip file
