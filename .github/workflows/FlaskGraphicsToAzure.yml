@@ -31,6 +31,7 @@ jobs:
       run: |
           python -m venv venv
           source venv/bin/activate
+      working-directory: ${{ env.APP_LOCATION }}
 
     - name: Install dependencies
       run: pip install -r requirements.txt
@@ -49,7 +50,6 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
     - name: Download artifact from build job
