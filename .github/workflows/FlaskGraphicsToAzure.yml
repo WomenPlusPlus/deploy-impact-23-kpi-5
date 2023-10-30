@@ -7,10 +7,9 @@ env:
   APP_LOCATION: "src/FlaskGraphics/"
 
 on:
-  workflow_run:
-      workflows: ["WebAPI CI/CD to Azure"]
-      types:
-        - completed
+  push:
+    branches: [ "main" ]
+    paths: ${{ env.PYTHON_VERSION }}
 
 permissions:
   contents: read
@@ -34,7 +33,7 @@ jobs:
           source venv/bin/activate
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: pip install -r ${{ env.PYTHON_VERSION }}/requirements.txt
 
     - name: Upload artifact for deployment jobs
       uses: actions/upload-artifact@v2
