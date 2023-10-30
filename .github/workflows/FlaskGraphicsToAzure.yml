@@ -1,4 +1,4 @@
-name: Flask Web App to Azure
+name: Flask Web App to Azure App
 
 env:
   AZURE_WEBAPP_NAME: kpi5Graphics
