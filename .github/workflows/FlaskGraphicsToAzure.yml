@@ -4,7 +4,7 @@ env:
   AZURE_WEBAPP_NAME: kpi5Graphics
   RESOURCE_GROUP: Womenplusplus
   PYTHON_VERSION: '3.10.x'
-  APP_LOCATION: "src/FlaskGraphics/"
+  APP_LOCATION: "src/FlaskGraphics"
 
 on:
   push:
