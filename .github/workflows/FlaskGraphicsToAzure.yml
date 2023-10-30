@@ -9,7 +9,7 @@ env:
 on:
   push:
     branches: [ "main" ]
-    paths: 'src/WebApi/**'
+    paths: 'src/FlaskGraphics/**'
 
 permissions:
   contents: read
@@ -33,7 +33,7 @@ jobs:
           source venv/bin/activate
 
     - name: Install dependencies
-      run: pip install -r ${{ env.PYTHON_VERSION }}/requirements.txt
+      run: pip install -r ${{ env.APP_LOCATION }}/requirements.txt
 
     - name: Upload artifact for deployment jobs
       uses: actions/upload-artifact@v2
