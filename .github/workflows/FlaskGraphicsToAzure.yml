@@ -4,7 +4,7 @@ env:
   AZURE_WEBAPP_NAME: kpi5Graphics
   RESOURCE_GROUP: Womenplusplus
   PYTHON_VERSION: '3.10.x'
-  APP_LOCATION: "src/FlaskGraphics"
+  APP_LOCATION: 'src/FlaskGraphics'
 
 on:
   push:
@@ -33,7 +33,7 @@ jobs:
           source venv/bin/activate
 
     - name: Install dependencies
-      run: pip install -r ${{ env.APP_LOCATION }}/requirements.txt
+      run: pip install -r requirements.txt
       working-directory: ${{ env.APP_LOCATION }}
 
     - name: Upload artifact for deployment jobs
