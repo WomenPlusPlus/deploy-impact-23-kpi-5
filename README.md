@@ -40,7 +40,7 @@ Our application is connected with **Supabase**, an open-source Firebase alternat
 ---
 
 - ### Flask Web API (Graphics management)
-- "src/WebApi" directory
+- "src/FlaskGraphics" directory
 
 - #### Project
 
@@ -60,7 +60,7 @@ Our application is connected with **Supabase**, an open-source Firebase alternat
 ---
 
 - ### REST Web API (Backend database read-only access)
-- [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment)
+- "src/WebApi" directory
 - #### Project
   Implemented with.Net7, connecting directly with Supabase;
   Swagger is implemented to facilitate testing and integration. To access Swagger: https://kpi5.azurewebsites.net/swagger/index.html
