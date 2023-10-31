@@ -1,27 +1,7 @@
-# React + TypeScript + Vite
+#### Main Branch:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Main Branch of the frontend is developed using **React** with **Vite**. React is a popular JavaScript library for building user interfaces, particularly for single-page applications. It allows us to create reusable UI components, which makes development efficient and our codebase clean and easy to understand.
 
-Currently, two official plugins are available:
+We chose Vite as our build tool because it offers a faster and leaner development experience for modern web projects. It provides features like hot module replacement and esbuild-powered fast transpilation out of the box, which significantly improves our development speed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Our application is connected with **Supabase**, an open-source Firebase alternative. We chose Supabase because it provides a comprehensive set of features including a real-time database, authentication services, auto-generated APIs, and native integration with React, which makes it an excellent choice for developing our application.
