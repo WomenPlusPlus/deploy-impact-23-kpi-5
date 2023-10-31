@@ -6,6 +6,7 @@
 - [Application](#application)
 - [Project](#project)
 - [Diagrams](#diagrams)
+- [Functionalities](functionalities)
 - [License](#license)
 
 ---
@@ -69,6 +70,8 @@ Our application is connected with **Supabase**, an open-source Firebase alternat
   **GitHub**: Pipeline is implemented in Actions, automatically publishing the code in Microsoft Azure Web App.
 
   **Azure**: Linux Web App. Free Service, the first access may take a few seconds to build. https://kpi5.azurewebsites.net
+
+  **Further details**: [link to Readme](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/main/src/WebApi)
 
 ---
 
