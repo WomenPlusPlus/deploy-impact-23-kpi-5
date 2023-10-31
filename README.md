@@ -5,7 +5,6 @@
 - [Application](#application)
 - [Project](#project)
 - [Diagrams](#diagrams)
-- [Functionalities](#functionalities)
 - [License](#license)
 
 
@@ -38,7 +37,7 @@ Web Application to be used as a single source for:
 ---
 
 - ### Flask Web API (Graphics management)
- - "src/WebApi" directory
+ - "src/FlaskGraphics" directory
  
   - #### Project
    Implemented with Python, connecting directly with Supabase, returning data via REST access in JSON format to the Front End to plot graphics;
@@ -57,7 +56,7 @@ Web Application to be used as a single source for:
 ---
 
 - ### REST Web API (Backend database read-only access)
- - [BackendDevelopment Branch](https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/tree/backendDevelopment)
+ - "src/WebApi" directory
    
  - #### Project
    Implemented with.Net7, connecting directly with Supabase;
@@ -85,12 +84,6 @@ Web Application to be used as a single source for:
 
 - ### KPI5 Database Diagram (Supabase)
 <img width="542" alt="KPI5 Database Diagram (Supabase)" src="https://github.com/WomenPlusPlus/deploy-impact-23-kpi-5/assets/56551789/18a1371e-619c-4eed-8582-3d330047966b">
-
-
----
-## **FUNCTIONALITIES**
-
-<< text >>
 
 
 ---
