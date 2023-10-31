@@ -47,8 +47,8 @@ jobs:
       with:
         name: python-app
         path: |
-          .
-          !venv/
+          ${{ env.APP_LOCATION }}
+          !${{ env.APP_LOCATION }}/venv/
 
   deploy:
     runs-on: ubuntu-latest
