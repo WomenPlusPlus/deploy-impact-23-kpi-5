@@ -6,7 +6,6 @@
 - [Application](#application)
 - [Project](#project)
 - [Diagrams](#diagrams)
-- [Functionalities](#functionalities)
 - [License](#license)
 
 ---
@@ -93,12 +92,7 @@ Our application is connected with **Supabase**, an open-source Firebase alternat
 
 ## **FUNCTIONALITIES**
 
-1. **Familiar & Simple UI**: The application features a user interface that is familiar and simple to use for users, enabling them to navigate and use the application with ease.
-2. **KPI Values Storage (CRUD)**: The application allows for the storage of KPI values. Users can create, read, update, and delete (CRUD) these values as per their requirements.
-3. **Predefined Schemas for KPI Values**: KPI values in the application follow predefined schemas, ensuring consistency and standardization across the platform.
-4. **In-App Visualization**: The application provides in-app visualization features such as timelines of KPIs, allowing users to track and analyze KPIs over time.
-5. **Easy Value Entry**: Users can easily enter their values and be done with it, making data entry a hassle-free process.
-6. **Data Quality**: The application ensures high data quality, providing reliable and accurate information for decision-making.
+<< text >>
 
 ---
 
